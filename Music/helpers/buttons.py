@@ -123,7 +123,7 @@ class MakeButtons:
         return buttons
 
     def player_markup(self, chat_id, video_id, username):
-        if video_id == "telegram":
+        if video_id == "ᴛᴇʟᴇɢʀᴀᴍ":
             buttons = [
                 [
                     self.ikb("🎛️", callback_data=f"controls|{video_id}|{chat_id}"),
@@ -172,7 +172,7 @@ class MakeButtons:
     def song_markup(self, rand_key, url, key):
         buttons = [
             [
-                self.ikb(text="Visit Youtube", url=url),
+                self.ikb(text="ᴠɪsɪᴛ ʏᴏᴜᴛᴜʙᴇ", url=url),
             ],
             [
                 self.ikb(text="αυ∂ισ", callback_data=f"song_dl|adl|{key}|{rand_key}"),
@@ -204,15 +204,15 @@ class MakeButtons:
     def source_markup(self):
         buttons = [
             [
-                self.ikb(text="Github ❤️", url="https://github.com/ROCKS143014"),
-                self.ikb(text="Repo 📦", url="https://t.me/PeroPeople/6"),
+                self.ikb(text="ɢιтнυв ❤️", url="https://github.com/ROCKS143014"),
+                self.ikb(text="ʀєρσ 📦", url="https://t.me/PeroPeople/6"),
             ],
             [
-                self.ikb(text="Under HellBot Network { 🇮🇳 }", url="https://t.me/XD_NETWORKS"),
+                self.ikb(text="υиᴅєя xᴅ вσƚ{ 🇮🇳 }", url="https://t.me/XD_NETWORKS"),
             ],
             [
-                self.ikb(text="Support 🎙️", url="https://t.me/XD_SUPORT"),
-                self.ikb(text="Updates 📣", url="https://t.me/XD_BOTSS"),
+                self.ikb(text="ѕυρρσяƚ 🎙️", url="https://t.me/XD_SUPORT"),
+                self.ikb(text="υρᴅαƚє 📣", url="https://t.me/XD_BOTSS"),
             ],
             [
                 self.ikb(text="🔙", callback_data="help|start"),
@@ -224,7 +224,7 @@ class MakeButtons:
     def start_markup(self, username: str):
         buttons = [
             [
-                self.ikb(text="Start Me 🎵", url=f"https://t.me/{username}?start=start"),
+                self.ikb(text="ѕтαят мє 🎵", url=f"https://t.me/{username}?start=start"),
                 self.ikb(text="☠️", callback_data="close"),
             ]
         ]
@@ -233,11 +233,11 @@ class MakeButtons:
     def start_pm_markup(self, username: str):
         buttons = [
             [
-                self.ikb(text="Help ⚙️", callback_data="help|back"),
-                self.ikb(text="Source 📦", callback_data="source"),
+                self.ikb(text="нєℓρ ⚙️", callback_data="help|back"),
+                self.ikb(text="ѕσυяƈє 📦", callback_data="source"),
             ],
             [
-                self.ikb(text="Add Me To Group 👥", url=f"https://t.me/{username}?startgroup=true"),
+                self.ikb(text="αᴅᴅ ɱҽ ƚσ gяσυρ 👥", url=f"https://t.me/{username}?startgroup=true"),
             ],
             [
                 self.ikb(text="☠️", callback_data="close"),
@@ -248,7 +248,7 @@ class MakeButtons:
     def help_gc_markup(self, username: str):
         buttons = [
             [
-                self.ikb(text="Get Help ❓", url=f"https://t.me/{username}?start=help"),
+                self.ikb(text="ɢєт нєℓρ ❓", url=f"https://t.me/{username}?start=help"),
                 self.ikb(text="☠️", callback_data="close"),
             ]
         ]
@@ -257,15 +257,15 @@ class MakeButtons:
     def help_pm_markup(self):
         buttons = [
             [
-                self.ikb(text="➊ Admins", callback_data="help|admin"),
-                self.ikb(text="➋ Users", callback_data="help|user"),
+                self.ikb(text="➊ ᴀᴅᴍɪɴs", callback_data="help|admin"),
+                self.ikb(text="➋ ᴜsᴇʀs", callback_data="help|user"),
             ],
             [
-                self.ikb(text="➌ Sudos", callback_data="help|sudo"),
-                self.ikb(text="➍ Others", callback_data="help|others"),
+                self.ikb(text="➌ sᴜᴅᴏs", callback_data="help|sudo"),
+                self.ikb(text="➍ ᴏᴛʜᴇʀs", callback_data="help|others"),
             ],
             [
-                self.ikb(text="➎ Owner", callback_data="help|owner"),
+                self.ikb(text="➎ ᴏᴡɴᴇʀs", callback_data="help|owner"),
             ],
             [
                 self.ikb(text="🔙", callback_data="help|start"),
