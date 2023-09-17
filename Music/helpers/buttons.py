@@ -205,7 +205,7 @@ class MakeButtons:
         buttons = [
             [
                 self.ikb(text="ɢιтнυв ❤️", url="https://github.com/ROCKS143014"),
-                self.ikb(text="ʀєρσ 📦", url="https://t.me/PeroPeople/6"),
+                self.ikb(text="ʀєρσ 📦", url="https://t.me/N91Ab/6"),
             ],
             [
                 self.ikb(text="υиᴅєя xᴅ вσƚ{ 🇮🇳 }", url="https://t.me/XD_NETWORKS"),
