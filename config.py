@@ -18,7 +18,7 @@ class Config(object):
     # optional config variables
     BLACK_IMG = getenv("BLACK_IMG", "https://graph.org/file/78f2f3960cff8141c40b9.jpg")        # black image for progress
     BOT_NAME = getenv("BOT_NAME", "\x40\x4d\x75\x73\x69\x63\x5f\x48\x65\x6c\x6c\x42\x6f\x74")   # dont put fancy texts here.
-    BOT_PIC = getenv("BOT_PIC", "https://graph.org/file/9c2c8cebbdca6fda70430.mp4")           # put direct link to image here
+    BOT_PIC = getenv("BOT_PIC", "https://graph.org/file/7bd6735da9516ca0fdc53.jpg")           # put direct link to image here
     LEADERBOARD_TIME = getenv("LEADERBOARD_TIME", "3:00")   # time in 24hr format for leaderboard broadcast
     LYRICS_API = getenv("LYRICS_API", None)             # from https://docs.genius.com/
     MAX_FAVORITES = int(getenv("MAX_FAVORITES", 30))    # max number of favorite tracks
